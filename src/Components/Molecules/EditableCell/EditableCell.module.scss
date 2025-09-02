@@ -1,0 +1,27 @@
+.view {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  cursor: text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.align_left { text-align: left; justify-content: flex-start; }
+.align_center { text-align: center; justify-content: center; }
+.align_right { text-align: right; justify-content: flex-end; }
+
+/* Select mode */
+.selectContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+}
+
+/* Override Select root wrapper to avoid extra layout around select */
+.selectRoot {
+  display: contents;
+}

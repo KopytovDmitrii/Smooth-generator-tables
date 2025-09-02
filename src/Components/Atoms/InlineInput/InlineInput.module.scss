@@ -1,0 +1,24 @@
+.input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid transparent;
+  background: transparent;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  padding: 0 8px;
+}
+
+.input:focus {
+  border-color: #adc6ff;
+  background: #f4f9ff;
+}
+
+.error {
+  border-color: #ff4d4f !important;
+  background: #fff2f0 !important;
+}
+
+.align_left { text-align: left; }
+.align_center { text-align: center; }
+.align_right { text-align: right; }

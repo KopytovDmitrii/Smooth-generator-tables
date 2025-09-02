@@ -1,0 +1,54 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3333;
+  color: #000000;
+}
+
+.select {
+  padding: 8px 10px;
+  border: 1px solid #E6ECEF;
+  border-radius: 4px;
+  background: #FFFFFF;
+  color: #000000;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3333;
+}
+
+.sizeSm {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+/* In-table cell appearance: borderless by default, show subtle outline on hover/focus */
+.inCell {
+  background: transparent;
+  border-color: transparent;
+  padding: 0 6px;
+  height: 100%;
+}
+
+.inCell:hover {
+  border-color: #E6ECEF;
+  background: #FFFFFF;
+}
+
+.inCell:focus,
+.inCell:focus-visible {
+  border-color: #7BB2E6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
+  background: #FFFFFF;
+}

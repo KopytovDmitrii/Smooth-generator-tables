@@ -1,0 +1,101 @@
+.form {
+  display: grid;
+  grid-template-columns: 248px 248px 1fr;
+  gap: 16px;
+  align-items: end;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #E6ECEF;
+  background: #FFFFFF;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3333;
+}
+
+.remove {
+  cursor: pointer;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 12px;
+  color: #6B7785;
+}
+
+.optionsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 6px 8px;
+  background: #fff;
+  border: 1px solid #E6ECEF;
+  border-radius: 6px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 16px;
+  border: 1px solid #E6ECEF;
+  background: #F5F8FA;
+  color: #2B3A40;
+  font-size: 12px;
+}
+
+.chipRemove {
+  background: transparent;
+  border: none;
+  color: #8A9AA4;
+  cursor: pointer;
+  padding: 0 2px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.chipInput {
+  flex: 1 1 180px;
+  min-width: 120px;
+  border: none;
+  outline: none;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 14px;
+  padding: 6px 4px;
+}
+
+.fixedButton {
+  width: 220px; /* одинаковая ширина, как первичная кнопка */
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}

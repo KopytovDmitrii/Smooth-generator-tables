@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+/* Базово: 1/3 ширины */
+.card { grid-column: span 2; }
+
+/* Половина и вся ширина */
+.half { grid-column: span 3; }
+.full { grid-column: 1 / -1; }
+
+/* Подсветка цели при наведении во время DnD */
+.dropTarget {
+  outline: 2px dashed #0A508B;
+  outline-offset: -2px;
+  box-shadow: inset 0 0 0 2px rgba(10, 80, 139, 0.2);
+}

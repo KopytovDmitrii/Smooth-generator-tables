@@ -1,0 +1,27 @@
+/* Глобальные стили. Шрифты заменить на семейство из Figma при уточнении */
+:root {
+  --color-bg: #E4E4E4; /* Figma: Rectangle 512 */
+  --color-text: #111111;
+  --color-border: #e5e7eb;
+  --radius: 8px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  padding-block: var(--space-6); /* вертикальные отступы сверху и снизу приложения */
+}
+
+* { box-sizing: border-box; }
